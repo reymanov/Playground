@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C3BD8902C98DF3500DE59DF /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3BD88F2C98DF3500DE59DF /* PlaygroundApp.swift */; };
-		8C3BD8922C98DF3500DE59DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3BD8912C98DF3500DE59DF /* ContentView.swift */; };
+		8C3BD8922C98DF3500DE59DF /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3BD8912C98DF3500DE59DF /* UserListView.swift */; };
 		8C3BD8942C98DF3600DE59DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3BD8932C98DF3600DE59DF /* Assets.xcassets */; };
 		8C3BD8972C98DF3600DE59DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3BD8962C98DF3600DE59DF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		8C3BD88C2C98DF3500DE59DF /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3BD88F2C98DF3500DE59DF /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
-		8C3BD8912C98DF3500DE59DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C3BD8912C98DF3500DE59DF /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		8C3BD8932C98DF3600DE59DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3BD8962C98DF3600DE59DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				8C3BD88F2C98DF3500DE59DF /* PlaygroundApp.swift */,
-				8C3BD8912C98DF3500DE59DF /* ContentView.swift */,
+				8C3BD8912C98DF3500DE59DF /* UserListView.swift */,
 				8C3BD8932C98DF3600DE59DF /* Assets.xcassets */,
 				8C3BD8952C98DF3600DE59DF /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3BD8922C98DF3500DE59DF /* ContentView.swift in Sources */,
+				8C3BD8922C98DF3500DE59DF /* UserListView.swift in Sources */,
 				8C3BD8902C98DF3500DE59DF /* PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
