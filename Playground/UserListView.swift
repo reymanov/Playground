@@ -16,12 +16,14 @@ struct UserListView: View {
         NavigationStack {
             List {
                 ForEach(users) { user in
-                    Text("\(user.firstName) \(user.lastName)")
-                        .onAppear {
-                            if users.last == user && totalUsers > users.count {
-                                loadNextPage()
-                            }
+                    NavigationLink(destination: UserDetailView(userId: user.id, userFullName: "\(user.firstName) \(user.lastName)")) {
+                        Text("\(user.firstName) \(user.lastName)")
+                    }
+                    .onAppear {
+                        if users.last == user && totalUsers > users.count {
+                            loadNextPage()
                         }
+                    }
                 }
                 
                 if isLoading {
